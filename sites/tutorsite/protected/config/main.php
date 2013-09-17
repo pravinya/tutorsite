@@ -33,11 +33,7 @@
                        
 	),
             
-        'aliases' => array(
-		
-                'accounts'=>dirname(__FILE__).'/../modules/userGroups',
-        ),
-                
+       
         'controllerMap'=>array(
                 'min'=>array(
                     'class' => 'ext.minScript.controllers.ExtMinScriptController',
@@ -67,8 +63,8 @@
                     //FACEBOOK SOCIAL PLUGINS
                     'facebook' => array(
                         'class' => 'ext.yii-facebook-opengraph.SFacebook',
-                        'appId'=>'375330325919116', // needed for JS SDK, Social Plugins and PHP SDK
-                        'secret'=>'9dd58ddf6809bd4171d41c1c8d720605', // needed for the PHP SDK
+                        'appId'=>'xxxxxxxxxxxx', // needed for JS SDK, Social Plugins and PHP SDK
+                        'secret'=>'xxxxxxxxxxxxxxxxx',
                         //'fileUpload'=>false, //needed to support API POST requests which send files
                         //'trustForwarded'=>false, // trust HTTP_X_FORWARDED_* headers ?
                         //'locale'=>'en_US', // override locale setting (defaults to en_US)
@@ -149,8 +145,7 @@
                                             
                             'connectionString' => 'mysql:host=localhost;dbname=caringtu_pravi',
                             'emulatePrepare' => true,
-                            //'username' => 'caringtu_pride',
-                            //'password' => 'Pri_13#@',
+                          
                             'username' => 'root',
                             'password' => 'mysql',
                             'charset' => 'utf8',
