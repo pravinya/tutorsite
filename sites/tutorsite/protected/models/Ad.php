@@ -70,7 +70,7 @@ class Ad extends CActiveRecord
 		   
 		   array(
 			      'validacion', 
-                              'dashboard.extensions.recaptcha.EReCaptchaValidator', 
+                              'application.extensions.recaptcha.EReCaptchaValidator', 
                               //'privateKey'=>'6LcNWuISAAAAAE_36j1F3h4ecfwRt_zg7B9yrGL5',
                               //'privateKey'=>'6Lfc_eASAAAAABfBfY11YZbtADJyuYja62AbVaOt',
 			       'privateKey' => '6LeSjucSAAAAAP5xic9mM_9PpK-XaLQLygSLYwPG',

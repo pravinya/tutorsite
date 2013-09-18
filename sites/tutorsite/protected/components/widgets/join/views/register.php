@@ -88,6 +88,7 @@
     
     <div class="element-radio">
 	<?php echo CHtml::activeLabelEx($model,'group_id', array('label' => Yii::t('publish_page_v2', 'I am a '),'class'=>'title')); ?>
+	 <span data-bind='value: skills().length'>&nbsp;</span> 
         <div class="column">
 	    <?php echo CHtml::activeRadioButtonList($model,'group_id', array('4'=>'Tutor','3'=>'Student'), array( 'labelOptions'=>array('style'=>'display:inline'),'template'=>'<div style="width:67%;float:left;">{input} {label}</div>','separator'=>'  ','tabindex' => 2)); ?>
         </div>

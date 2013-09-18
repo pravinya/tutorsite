@@ -17,10 +17,10 @@ class CategoryController extends Controller
 	 public function behaviors()
     {
         return array(
-            'jsTreeBehavior' => array('class' => 'dashboard.behaviors.JsTreeBehavior',
+            'jsTreeBehavior' => array('class' => 'application.components.widgets.catAdmin.behaviors.JsTreeBehavior',
                 'modelClassName' => 'Category',
-                'form_alias_path' => 'dashboard.views.category._form',
-                'view_alias_path' => 'dashboard.views.category.view',
+                'form_alias_path' => 'application.components.widgets.catAdmin._form',
+                'view_alias_path' => 'application.components.widgets.catAdmin.view',
                 'label_property' => 'name',
                 'rel_property' => 'name'
             )

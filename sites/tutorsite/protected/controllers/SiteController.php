@@ -75,7 +75,10 @@ class SiteController extends Controller{
                                        'modelName'=>'Skills',
 				       'methodName'=>'suggest'
                                      ),   
-                       
+                          'gmap.'  =>  array(
+                                            'class'=>'application.components.widgets.gmapPick.LocationWidget',
+                                            'defaultLocation'=>'Hyderabad, India'
+                        ),
                         );
 	}
         

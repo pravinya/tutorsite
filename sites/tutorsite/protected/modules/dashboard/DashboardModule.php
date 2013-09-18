@@ -93,7 +93,7 @@ class DashboardModule extends CWebModule
     protected function registerCoreCss()
     {
         Yii::app()->clientScript->registerCssFile($this->getAssetsUrl() . '/css/admin.css');
-        Yii::app()->clientScript->registerCssFile($this->getAssetsUrl() . '/css/forms.css');
+       // Yii::app()->clientScript->registerCssFile($this->getAssetsUrl() . '/css/forms.css');
         
        
     }

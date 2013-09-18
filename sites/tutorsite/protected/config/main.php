@@ -147,12 +147,11 @@
                         
                     'db'=>array(
                                             
-                            'connectionString' => 'mysql:host=localhost;dbname=caringtu_pravi',
+                            'connectionString' => 'mysql:host=localhost;dbname=caringtu_tutorsite',
                             'emulatePrepare' => true,
-                            //'username' => 'caringtu_pride',
-                            //'password' => 'Pri_13#@',
-                            'username' => 'root',
-                            'password' => 'mysql',
+                            'username' => 'xxxx',
+                            'password' => 'xxxx',
+                            
                             'charset' => 'utf8',
                             'tablePrefix' => 'tbl_',
                             'enableParamLogging' => true,
